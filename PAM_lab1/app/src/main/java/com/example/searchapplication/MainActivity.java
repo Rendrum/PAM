@@ -41,16 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        bt_clear=(Button)findViewById(R.id.bt_clear);
-        bt_clear.setOnClickListener(new Button.OnClickListener()
 
-        {
-            @Override
-            public void onClick
-                    (View v) {
-                editText.setText("");
-            }
-        });
+
         camera_open_id = (Button) findViewById(R.id.camera_button);
         camera_open_id.setOnClickListener(new View.OnClickListener() {
 
