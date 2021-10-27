@@ -12,8 +12,8 @@ public class ReminderBroadcast extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "notifyApp")
                 .setSmallIcon(R.drawable.ic_action_search)
-                .setContentTitle("SE")
-                .setContentText("Search Something!")
+                .setContentTitle("PAM")
+                .setContentText("Notificare")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
